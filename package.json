@@ -10,7 +10,10 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx",
     "format": "prettier . --check",
-    "format:fix": "prettier . --write"
+    "format:fix": "prettier . --write",
+    "test":    "vitest --run --reporter verbose",
+  "test:w":  "vitest",
+  "test:ui": "vitest --ui"
   },
   "dependencies": {
     "htmlhint": "^1.1.4",
@@ -37,6 +40,7 @@
     "stylelint-config-standard": "^30.0.1",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.9.5",
-    "vite": "^4.1.0"
+    "vite": "^4.1.0",
+    "vitest": "^0.28.5"
   }
 }
