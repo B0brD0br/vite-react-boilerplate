@@ -11,9 +11,11 @@
     "lint:fix": "eslint . --fix --ext .js,.jsx,.ts,.tsx",
     "format": "prettier . --check",
     "format:fix": "prettier . --write",
-    "test":    "vitest --run --reporter verbose",
-  "test:w":  "vitest",
-  "test:ui": "vitest --ui"
+    "test": "vitest --run --reporter verbose",
+    "test:w": "vitest",
+    "test:ui": "vitest --ui",
+    "test:c":  "vitest run --coverage",
+    "test:cw": "vitest watch --coverage"
   },
   "dependencies": {
     "htmlhint": "^1.1.4",
@@ -27,6 +29,7 @@
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.52.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
+    "@vitest/coverage-c8": "^0.28.5",
     "eslint": "^8.34.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard-with-typescript": "^34.0.0",
