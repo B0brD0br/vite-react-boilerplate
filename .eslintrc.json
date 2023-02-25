@@ -7,9 +7,7 @@
         "plugin:react/recommended",
         "standard-with-typescript",
         "plugin:react/jsx-runtime",
-        "prettier",
-        "plugin:testing-library/react",
-        "plugin:jest-dom/recommended"
+        "prettier"
     ],
     "overrides": [
     ],
@@ -21,9 +19,7 @@
     },
     "plugins": [
         "react",
-        "html",
-        "testing-library",
-        "jest-dom"
+        "html"
     ],
     "rules": {
         "no-console": "warn",
@@ -52,15 +48,7 @@
                 "noSortAlphabetically": false,
                 "reservedFirst": true
             }
-        ],
-        "testing-library/await-async-query": "error",
-        "testing-library/no-await-sync-query": "error",
-        "testing-library/no-debugging-utils": "warn",
-        "testing-library/no-dom-import": "off",
-        "jest-dom/prefer-checked": "error",
-        "jest-dom/prefer-enabled-disabled": "error",
-        "jest-dom/prefer-required": "error",
-        "jest-dom/prefer-to-have-attribute": "error"
+        ]
     },
     "settings": {
         "react": {
