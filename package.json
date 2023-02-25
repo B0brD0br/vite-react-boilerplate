@@ -14,7 +14,7 @@
     "test": "vitest --run --reporter verbose",
     "test:w": "vitest",
     "test:ui": "vitest --ui",
-    "test:c":  "vitest run --coverage",
+    "test:c": "vitest run --coverage",
     "test:cw": "vitest watch --coverage"
   },
   "dependencies": {
@@ -23,6 +23,10 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@testing-library/dom": "^9.0.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
@@ -35,9 +39,12 @@
     "eslint-config-standard-with-typescript": "^34.0.0",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jest-dom": "^4.0.3",
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-testing-library": "^5.10.2",
+    "jsdom": "^21.1.0",
     "prettier": "^2.8.4",
     "stylelint": "^15.1.0",
     "stylelint-config-standard": "^30.0.1",
